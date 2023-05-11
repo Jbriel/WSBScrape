@@ -1,0 +1,24 @@
+{
+  "name": "redditscraper",
+  "version": "1.0.0",
+  "description": "This is a project to attempt to find correlation behind large single day traffic referring to a single stock on certain subreddits(WSB,Investing,Stocks, etc) and the stock price in the short term.  More simply creating an alert when a meme stock starts to blow up to try and catch it early.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jbriel/WSBScrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jbriel/WSBScrape/issues"
+  },
+  "homepage": "https://github.com/Jbriel/WSBScrape#readme",
+  "dependencies": {
+    "config": "^3.3.9",
+    "snoowrap": "^1.23.0"
+  }
+}

@@ -23,3 +23,11 @@ Phase 2: Create a general stock scraper
 2. Use the model above to check if any of these stocks go above a post percentage threshold
 3. Give a live alert(email or text message) when a stock breaks one of these thresholds
 4. User can then give due dilligence and decide if the stock is worth buying. 
+
+
+
+To Run:
+
+rename `config/sample_default.json` to `config/default.json` with the api variables filled properly
+
+npm start
