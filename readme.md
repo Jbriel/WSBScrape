@@ -23,11 +23,3 @@ Phase 2: Create a general stock scraper
 2. Use the model above to check if any of these stocks go above a post percentage threshold
 3. Give a live alert(email or text message) when a stock breaks one of these thresholds
 4. User can then give due dilligence and decide if the stock is worth buying. 
-
-
-
-Curl to get access token
-curl -X POST -d 'grant_type=password&username=Capable_Detective_37&password=password' --user 'itZFXFIOBoUHGVezTyc3OQ:p_pEdQSjszdS1E9d7CtRpyQpgbSJwQ' https://www.reddit.com/api/v1/access_token
-
-ClientId: itZFXFIOBoUHGVezTyc3OQ
-Secret: p_pEdQSjszdS1E9d7CtRpyQpgbSJwQ
